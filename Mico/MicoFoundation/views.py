@@ -7,3 +7,6 @@ def homepage(request):
 
 def aboutpage(request):
     return render(request, 'MicoFoundation/about.html', {})
+
+def boardmembers(request):
+    return render(request, 'MicoFoundation/boardmembers.html', {})
