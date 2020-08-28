@@ -10,3 +10,6 @@ def aboutpage(request):
 
 def boardmembers(request):
     return render(request, 'MicoFoundation/boardmembers.html', {})
+
+def sponsorship(request):
+    return render(request, 'MicoFoundation/sponsorship.html', {})

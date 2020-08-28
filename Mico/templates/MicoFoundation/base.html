@@ -170,8 +170,8 @@
                                     <div class="ekit-wid-con ekit_menu_responsive_tablet" data-hamburger-icon="" data-hamburger-icon-type="icon" data-responsive-breakpoint="1024">
                                       <div id="ekit-megamenu-main-menu" class="elementskit-menu-container elementskit-menu-offcanvas-elements elementskit-navbar-nav-default elementskit_none ekit-nav-menu-one-page-no">
                                         <ul id="main-menu" class="elementskit-navbar-nav elementskit-menu-po-center">
-                                          <li id="menu-item-3076" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-3076 nav-item elementskit-mobile-builder-content"><a href="" class="ekit-menu-nav-link">Home</a></li>
-                                          <li id="menu-item-1501" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1501 nav-item elementskit-dropdown-has elementskit-megamenu-has elementskit-mobile-builder-content"><a href="" class="ekit-menu-nav-link">About us<i class="elementskit-submenu-indicator"></i></a>
+                                          <li id="menu-item-3076" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-3076 nav-item elementskit-mobile-builder-content"><a href="{% url 'home' %}" class="ekit-menu-nav-link">Home</a></li>
+                                          <li id="menu-item-1501" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1501 nav-item elementskit-dropdown-has elementskit-megamenu-has elementskit-mobile-builder-content"><a href="{% url 'about'%}" class="ekit-menu-nav-link">About us<i class="elementskit-submenu-indicator"></i></a>
                                             <ul class="elementskit-megamenu-panel">
                                               <div data-elementor-type="wp-post" data-elementor-id="1502" class="elementor elementor-1502" data-elementor-settings="[]">
                                                 <div class="elementor-inner">
@@ -563,7 +563,7 @@
                                                   <nav data-subMenusMinWidth="50" data-subMenusMaxWidth="500" class="elementor-nav-menu--main elementor-nav-menu__container elementor-nav-menu--layout-vertical e--pointer-none">
                                                     <ul id="menu-1-d531c4e" class="elementor-nav-menu sm-vertical">
                                                       <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2345"><a href="{% url 'about' %}" class="elementor-item">About Us</a></li>
-                                                      <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2346"><a href="https://themicofoundationja.com/board-members/" class="elementor-item">Board Members</a></li>
+                                                      <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2346"><a href="{% url 'boardmembers' %}" class="elementor-item">Board Members</a></li>
                                                       <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2347"><a href="https://themicofoundationja.com/contact/" class="elementor-item">Contact</a></li>
                                                       <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2348"><a href="https://themicofoundationja.com/history/" class="elementor-item">History</a></li>
                                                     </ul>
