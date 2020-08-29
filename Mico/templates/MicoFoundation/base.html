@@ -52,7 +52,7 @@
               </div>
               <div class="col action-box">
                 <div class="button-hodler">
-                  <button class="btn-donate"><a href="https://themicofoundationja.com/donate">Donate</a></button>
+                  <button class="btn-donate"><a href="{% url 'donate' %}">Donate</a></button>
                   <span class=""><button class="btn-dismiss"></button> </span>
                 </div>
               </div>
@@ -82,10 +82,10 @@
                                                 <div class="ekit-wid-con ekit_menu_responsive_tablet" data-hamburger-icon="" data-hamburger-icon-type="icon" data-responsive-breakpoint="1024">
                                                   <div id="ekit-megamenu-menu-footer-3" class="elementskit-menu-container elementskit-menu-offcanvas-elements elementskit-navbar-nav-default elementskit_line_arrow ekit-nav-menu-one-page-no">
                                                     <ul id="main-menu" class="elementskit-navbar-nav elementskit-menu-po-right">
-                                                      <li id="menu-item-2352" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2352 nav-item elementskit-mobile-builder-content"><a href="" class="ekit-menu-nav-link">Get Involved</a></li>
-                                                      <li id="menu-item-4537" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4537 nav-item elementskit-mobile-builder-content"><a href="" class="ekit-menu-nav-link">Newsroom</a></li>
+                                                      <li id="menu-item-2352" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2352 nav-item elementskit-mobile-builder-content"><a href="{% url 'getinvolved' %}" class="ekit-menu-nav-link">Get Involved</a></li>
+                                                      <li id="menu-item-4537" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4537 nav-item elementskit-mobile-builder-content"><a href="{% url 'newsroom' %}" class="ekit-menu-nav-link">Newsroom</a></li>
                                                       <li id="menu-item-5296" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-5296 nav-item elementskit-mobile-builder-content"><a href="" class="ekit-menu-nav-link">Mico University College</a></li>
-                                                      <li id="menu-item-4107" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4107 nav-item elementskit-mobile-builder-content"><a href="" class="ekit-menu-nav-link">Contact Us</a></li>
+                                                      <li id="menu-item-4107" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4107 nav-item elementskit-mobile-builder-content"><a href="{% url 'contact' %}" class="ekit-menu-nav-link">Contact Us</a></li>
                                                     </ul>
                                                     <div class="elementskit-nav-identity-panel">
                                                       <div class="elementskit-site-title">
@@ -223,7 +223,7 @@
                                                                                 <nav data-subMenusMinWidth="50" data-subMenusMaxWidth="500" class="elementor-nav-menu--main elementor-nav-menu__container elementor-nav-menu--layout-vertical e--pointer-none">
                                                                                   <ul id="menu-1-e06723d" class="elementor-nav-menu sm-vertical">
                                                                                     <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2884"><a href="https://themicofoundationja.com/work-with-us/" class="elementor-item">Work with us</a></li>
-                                                                                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4291"><a href="https://themicofoundationja.com/sponsorship/" class="elementor-item">Sponsorship</a></li>
+                                                                                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4291"><a href="{% url 'sponsorship' %}" class="elementor-item">Sponsorship</a></li>
                                                                                     <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4302"><a href="https://themicofoundationja.com/resources/" class="elementor-item">Resource Center</a></li>
                                                                                   </ul>
                                                                                 </nav>
@@ -309,9 +309,9 @@
                                                   </div>
                                                 </ul>
                                               </li>
-                                              <li id="menu-item-934" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-934 nav-item elementskit-mobile-builder-content"><a href="https://themicofoundationja.com/sponsorship/" class="ekit-menu-nav-link">Sponsorship</a></li>
+                                              <li id="menu-item-934" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-934 nav-item elementskit-mobile-builder-content"><a href="{% url 'sponsorship' %}" class="ekit-menu-nav-link">Sponsorship</a></li>
                                               <li id="menu-item-713" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-713 nav-item elementskit-mobile-builder-content"><a href="https://themicofoundationja.com/events/" class="ekit-menu-nav-link">Events</a></li>
-                                              <li id="menu-item-2657" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2657 nav-item elementskit-mobile-builder-content"><a href="https://themicofoundationja.com/contact-us/" class="ekit-menu-nav-link">Contact</a></li>
+                                              <li id="menu-item-2657" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2657 nav-item elementskit-mobile-builder-content"><a href="{% url 'contact' %}" class="ekit-menu-nav-link">Contact</a></li>
                                             </ul>
                                             <div class="elementskit-nav-identity-panel">
                                               <div class="elementskit-site-title"> <a class="elementskit-nav-logo" href="https://themicofoundationja.com" target="_self" rel="">
@@ -343,7 +343,7 @@
                                     </div>
                                     <div class="elementor-element elementor-element-df30a5c elementor-button-primary elementor-widget elementor-widget-button" data-id="df30a5c" data-element_type="widget" data-widget_type="button.default">
                                       <div class="elementor-widget-container">
-                                        <div class="elementor-button-wrapper"><a href="https://themicofoundationja.com/donate" class="elementor-button-link elementor-button elementor-size-sm" role="button"> <span class="elementor-button-content-wrapper"> <span class="elementor-button-text">DONATE</span></span></a>
+                                        <div class="elementor-button-wrapper"><a href="{% url 'donate' %}" class="elementor-button-link elementor-button elementor-size-sm" role="button"> <span class="elementor-button-content-wrapper"> <span class="elementor-button-text">DONATE</span></span></a>
                                         </div>
                                       </div>
                                     </div>
@@ -414,7 +414,7 @@
                                   <div class="elementor-widget-wrap">
                                     <div class="elementor-element elementor-element-03340c2 elementor-align-justify elementor-button-primary elementor-widget elementor-widget-button" data-id="03340c2" data-element_type="widget" data-widget_type="button.default">
                                       <div class="elementor-widget-container">
-                                        <div class="elementor-button-wrapper"> <a href="https://themicofoundationja.com/donate" class="elementor-button-link elementor-button elementor-size-lg" role="button"> <span class="elementor-button-content-wrapper"> <span class="elementor-button-text">GET INVOLVED</span> </span> </a>
+                                        <div class="elementor-button-wrapper"> <a href="{% url 'donate' %}" class="elementor-button-link elementor-button elementor-size-lg" role="button"> <span class="elementor-button-content-wrapper"> <span class="elementor-button-text">GET INVOLVED</span> </span> </a>
                                         </div>
                                       </div>
                                     </div>
@@ -426,7 +426,7 @@
                                   <div class="elementor-widget-wrap">
                                     <div class="elementor-element elementor-element-3ad7e93 elementor-align-justify elementor-button-primary elementor-widget elementor-widget-button" data-id="3ad7e93" data-element_type="widget" data-widget_type="button.default">
                                       <div class="elementor-widget-container">
-                                        <div class="elementor-button-wrapper"> <a href="https://themicofoundationja.com/donate" class="elementor-button-link elementor-button elementor-size-lg" role="button"> <span class="elementor-button-content-wrapper"> <span class="elementor-button-text">DONATE</span> </span> </a>
+                                        <div class="elementor-button-wrapper"> <a href="{% url 'donate' %}" class="elementor-button-link elementor-button elementor-size-lg" role="button"> <span class="elementor-button-content-wrapper"> <span class="elementor-button-text">DONATE</span> </span> </a>
                                         </div>
                                       </div>
                                     </div>
@@ -522,7 +522,7 @@
                                             <div class="elementor-widget-wrap">
                                               <div class="elementor-element elementor-element-4e8753c elementor-align-right elementor-mobile-align-center elementor-button-primary elementor-widget elementor-widget-button" data-id="4e8753c" data-element_type="widget" data-widget_type="button.default">
                                                 <div class="elementor-widget-container">
-                                                  <div class="elementor-button-wrapper"> <a href="https://themicofoundationja.com/donate/" class="elementor-button-link elementor-button elementor-size-xs" role="button"> <span class="elementor-button-content-wrapper"> <span class="elementor-button-text">Donate</span> </span> </a>
+                                                  <div class="elementor-button-wrapper"> <a href="{% url 'donate' %}" class="elementor-button-link elementor-button elementor-size-xs" role="button"> <span class="elementor-button-content-wrapper"> <span class="elementor-button-text">Donate</span> </span> </a>
                                                   </div>
                                                 </div>
                                               </div>
@@ -564,8 +564,8 @@
                                                     <ul id="menu-1-d531c4e" class="elementor-nav-menu sm-vertical">
                                                       <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2345"><a href="{% url 'about' %}" class="elementor-item">About Us</a></li>
                                                       <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2346"><a href="{% url 'boardmembers' %}" class="elementor-item">Board Members</a></li>
-                                                      <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2347"><a href="https://themicofoundationja.com/contact/" class="elementor-item">Contact</a></li>
-                                                      <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2348"><a href="https://themicofoundationja.com/history/" class="elementor-item">History</a></li>
+                                                      <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2347"><a href="{% url 'contact' %}" class="elementor-item">Contact</a></li>
+                                                      <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2348"><a href="{% url 'history' %}" class="elementor-item">History</a></li>
                                                     </ul>
                                                   </nav>
                                                 </div>
@@ -584,10 +584,10 @@
                                                 <div class="elementor-widget-container">
                                                   <nav data-subMenusMinWidth="50" data-subMenusMaxWidth="500" class="elementor-nav-menu--main elementor-nav-menu__container elementor-nav-menu--layout-vertical e--pointer-none">
                                                     <ul id="menu-1-ec813a1" class="elementor-nav-menu sm-vertical">
-                                                      <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2352"><a href="https://themicofoundationja.com/get-involved/" class="elementor-item">Get Involved</a></li>
-                                                      <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4537"><a href="https://themicofoundationja.com/newsroom/" class="elementor-item">Newsroom</a></li>
-                                                      <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-5296"><a href="https://www.themico.edu.jm/" class="elementor-item">Mico University College</a></li>
-                                                      <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4107"><a href="https://themicofoundationja.com/contact-us/" class="elementor-item">Contact Us</a></li>
+                                                      <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2352"><a href="{% url 'getinvolved' %}" class="elementor-item">Get Involved</a></li>
+                                                      <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4537"><a href="{% url 'newsroom' %}" class="elementor-item">Newsroom</a></li>
+                                                      <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-5296"><a href="#" class="elementor-item">Mico University College</a></li>
+                                                      <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4107"><a href="{% url 'contact' %}" class="elementor-item">Contact Us</a></li>
                                                     </ul>
                                                   </nav>
                                                 </div>
@@ -605,9 +605,9 @@
                                               <div class="elementor-widget-container">
                                                 <nav data-subMenusMinWidth="50" data-subMenusMaxWidth="500" class="elementor-nav-menu--main elementor-nav-menu__container elementor-nav-menu--layout-vertical e--pointer-none">
                                                   <ul id="menu-1-998a21d" class="elementor-nav-menu sm-vertical">
-                                                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2349"><a href="https://themicofoundationja.com/manager-message/" class="elementor-item">Manager Message</a></li>
-                                                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2350"><a href="https://themicofoundationja.com/message-chairman/" class="elementor-item">Message Chairman</a></li>
-                                                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2351"><a href="https://themicofoundationja.com/the-lady-mico-trust-message/" class="elementor-item">The lady Mico Trust Message</a></li>
+                                                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2349"><a href="{% url 'managermessage' %}" class="elementor-item">Manager Message</a></li>
+                                                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2350"><a href="{% url 'messagechairman' %}" class="elementor-item">Message Chairman</a></li>
+                                                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2351"><a href="{% url 'ladymessage' %}" class="elementor-item">The lady Mico Trust Message</a></li>
                                                   </ul>
                                                 </nav>
                                               </div>
@@ -660,7 +660,7 @@
                                           <div class="elementor-widget-wrap">
                                              <div class="elementor-element elementor-element-402a391 elementor-widget elementor-widget-text-editor" data-id="402a391" data-element_type="widget" data-widget_type="text-editor.default">
                                                <div class="elementor-widget-container">
-                                                 <div class="elementor-text-editor elementor-clearfix"><p>Maintained and developed by <span style="color: #ffffff;"><a style="color: #ffffff;" href="https://akutonsolutions.com/">Akuton Solutions</a></span></p>
+                                                 <div class="elementor-text-editor elementor-clearfix"><p>Maintained and developed by <span style="color: #ffffff;"><a style="color: #ffffff;" href="https://akutonsolutions.com/">Tech Himalaya</a></span></p>
                                                  </div>
                                                </div>
                                              </div>

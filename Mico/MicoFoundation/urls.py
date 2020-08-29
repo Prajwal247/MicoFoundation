@@ -6,6 +6,25 @@ urlpatterns = [
             path('about/', views.aboutpage, name = 'about'),
             path('boardmembers/', views.boardmembers, name = 'boardmembers'),
             path('sponsorships/', views.sponsorship, name = 'sponsorship'),
+            path('contact/', views.contact, name = 'contact'),
+            path('donate/', views.donate, name = 'donate'),
+            path('getinvolved/', views.getinvolved, name = 'getinvolved'),
+            path('history/', views.history, name = 'history'),
+            path('ladymessage/', views.ladymessage, name = 'ladymessage'),
+            path('managermessage/', views.managermessage, name = 'managermessage'),
+            path('messagechairman/', views.messagechairman, name = 'messagechairman'),
+            path('newsroom/', views.newsroom, name = 'newsroom'),
+
+
+
+
+
+
+
+
+
+
+
 
 
 
