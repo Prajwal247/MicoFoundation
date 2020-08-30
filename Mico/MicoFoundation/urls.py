@@ -14,18 +14,14 @@ urlpatterns = [
             path('managermessage/', views.managermessage, name = 'managermessage'),
             path('messagechairman/', views.messagechairman, name = 'messagechairman'),
             path('newsroom/', views.newsroom, name = 'newsroom'),
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+            path('covidrelieffund/', views.covidrelief, name = 'covidrelief'),
+            path('fenceproject/', views.fenceproject, name = 'fenceproject'),
+            path('messages/', views.messages, name = 'messages'),
+            path('ourmission/', views.ourmission, name = 'ourmission'),
+            path('ressources/', views.resources, name = 'resources'),
+            path('smartclassroom/', views.covidrelief, name = 'smartclassroom'),
+            path('staffs/', views.staffs, name = 'staffs'),
+            path('trustees/', views.trustees, name = 'trustees'),
+            path('workwithis/', views.workwithus, name = 'workwithus'),
+        
 ]

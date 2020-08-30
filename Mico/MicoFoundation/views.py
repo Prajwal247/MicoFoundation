@@ -39,3 +39,35 @@ def messagechairman(request):
 
 def newsroom(request):
     return render(request, 'MicoFoundation/newsroom.html', {})
+
+
+def covidrelief(request):
+    return render(request, 'MicoFoundation/covidrelieffund.html', {})
+
+
+
+def fenceproject(request):
+    return render(request, 'MicoFoundation/fenceproject.html', {})
+
+
+def messages(request):
+    return render(request, 'MicoFoundation/messages.html', {})
+
+
+def ourmission(request):
+    return render(request, 'MicoFoundation/ourmission.html', {})
+
+
+def resources(request):
+    return render(request, 'MicoFoundation/resources.html', {})
+
+
+def trustees(request):
+    return render(request, 'MicoFoundation/trustees.html', {})
+
+
+def workwithus(request):
+    return render(request, 'MicoFoundation/workwithus.html', {})
+
+def staffs(request):
+    return render(request, 'MicoFoundation/staffs.html', {})
